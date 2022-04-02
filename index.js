@@ -3,7 +3,7 @@ var app = require('express')();
 var cors = require('cors');
 
 const PORT = 7777;
-const URL = 'http://88.99.89.209:7777';
+const URL = 'http://localhost:7778';
 
 app.use(cors())
 app.use(proxy(URL));
