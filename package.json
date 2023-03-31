@@ -4,7 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
+    "start_rest": "nodemon index_sei_rest.js",
+    "start_somm_rpc": "nodemon index_somm_rpc.js",
+    "start_somm_rest": "nodemon index_somm_rest.js",
+    "start_osmo_rpc": "nodemon index_osmo_rpc.js",
+    "start_osmo_rest": "nodemon index_osmo_rest.js",
+    "start_juno_rpc": "nodemon index_juno_rpc.js",
+    "start_juno_rest": "nodemon index_juno_rest.js",
+    "start_axl_rpc": "nodemon index_axl_rpc.js",
+    "start_axl_rest": "nodemon index_axl_rest.js",
+    "start_stargaze":  "nodemon index_stargaze.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,5 +23,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "express-http-proxy": "^1.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
