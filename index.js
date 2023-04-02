@@ -8,16 +8,18 @@ const config = [
   { url: 'https://axelar-rpc.polkachu.com', port: 17771 },
   { url: 'https://api-sommelier.pupmos.network', port: 17782 },
   { url: 'https://rpc-sommelier.pupmos.network', port: 17783 },
-  { url: 'https://api-osmosis.pupmos.network', port: 17784 },
-  { url: 'https://rpc.osl.zone', port: 17785 },
+  { url: 'https://osmosis-api.polkachu.com', port: 17784 },
+  { url: 'https://osmosis-rpc.polkachu.com', port: 17785 },
   { url: 'https://api-juno.pupmos.network', port: 17786 },
   { url: 'https://rpc-juno.pupmos.network', port: 17787 },
   { url: 'https://api-stargaze.pupmos.network', port: 17788 },
   { url: 'https://rpc-stargaze.pupmos.network', port: 17789 },
   { url: 'https://stride.api.chandrastation.com', port: 17790 },
   { url: 'https://stride.rpc.chandrastation.com', port: 17791 },
-  { url: 'https://rest-kujira.ecostake.com', port: 17792 },
-  { url: 'https://rpc-kujira.starsquid.io', port: 17793 }
+  { url: 'https://api-kujira.starsquid.io', port: 17792 },
+  { url: 'https://rpc-kujira.starsquid.io', port: 17793 },
+  { url: 'https://mars-api.lavenderfive.com', port: 17794 },
+  { url: 'https://mars-rpc.lavenderfive.com', port: 17795 }
 ]
 
 for(let p of config) {
